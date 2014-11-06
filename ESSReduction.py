@@ -1,4 +1,4 @@
-import numpy
+from __future__ import division
 
 #Global Constants, can be taken as inputs at a later time
 location = "/home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/"
@@ -10,7 +10,7 @@ numPlans = 34
 dimension = 2
 
 
-cost = []	
+cost = [ [0 for x in xrange( pow(resolution,dimension) )] for x in xrange( numPlans )]
 
 
 def loadData():
@@ -19,12 +19,12 @@ def loadData():
 		print "reading file " + file
 	
 		f = open(file,'r')
-	
-		for i in range(resolution):
-			for j in range(resolution):
-				cost.append( int(f.readline()) )
-
+		
+		for j in range( pow(resolution,dimension) ):
+			cost[k][j] = int(f.readline())
+				
 		f.close()
+	
 
 
 
@@ -54,48 +54,59 @@ def getIndexForLocation( loc ):
 	
 	
 def dimReduceUsingRow( d ):
-	bestMSO = 0
+	bestRowMSO = 0.0
 	bestRow = 0
 	 
 	for row in range(resolution):     #fix a row
 		fixRowBestPlans = []        #stores the best plan num for all the points corresponding to fixed row
-		mso = 0
+		mso = 0.0
 		
 		for i in range( pow(resolution,dimension) ):
 			loc = getCoordinatesFromIndex( i )
 			if loc[d] == row:
 				(p,c) = getOptimal( loc )
 				fixRowBestPlans.append(p)
-
+				
+		
 		# size of fixRowBestPlans is pow( resolution, dimension-1 )
 		
-		for i in range( pow(resolution,dimension) ):
+		
+		for i in range( pow(resolution,dimension) ):   #finds MSO using plans in Fixed Row by exploring complete space
 			loc = getCoordinatesFromIndex( i )
-			(p,c) = getOptimal( loc )
-
+			if loc[d] == row:   # OPTIMIZATION donot explore for fixedRow
+				continue
+			(OptPlan,OptCost) = getOptimal( loc )
+				
+				
 			#compute index to lookup into fixRowBestPlans with n-1 dimension
 			index = 0
+			p = 0
 			for x in range(dimension):
 				if x == d:
 					continue
 				else:
-					index += pow(resolution, (dimension-j-1) ) * loc[x]
+					index += pow(resolution, (dimension-p-2) ) * loc[x]
+					p += 1	
 			
-			bestPlanInFixedRow = fixRowBestPlan[index]
+			bestPlanInFixedRow = fixRowBestPlans[index]
 			
-			subOptCost = cost[bestPlanInFixedRow][i]
-			if subOptCost < mso
+			if fixRowBestPlans[index] == OptPlan:  #OPTIMIZATION if OptPlan is same as fixRowBestPlans[index] subopt is 0 so skip iteration
+				continue
+				
+			subOptCost = float(cost[bestPlanInFixedRow][i] / OptCost)
+			
+			if subOptCost > mso:
 				mso = subOptCost
 				
-					
-		if i == 1:
-			bestMSO = msoCost
-			bestRow = 1
-		elif msoCost < bestMSO:
-			bestMSO = msoCost
+		print mso		
+		if row == 0:
+			bestRowMSO = mso
+			bestRow = 0
+		elif mso < bestRowMSO:
+			bestRowMSO = mso
 			bestRow = i
 			
-	return (bestMSO,bestRow)
+	return (bestRowMSO,bestRow)
 	
 
 
@@ -113,9 +124,9 @@ def getCoordinatesFromIndex( index ):
 ## MAIN
 loadData()
 for i in range(dimension):
-	print "Reducing dimension " + i
-	(row, msoCost) = dimReduceUsingRow(i)
-	print "Use selectivity row " + row + " with MSO " + msoCost
+	print "Reducing dimension " + str(i)
+	(msoCost, row) = dimReduceUsingRow(i)
+	print "Use selectivity row " + str(row) + " with MSO " + str(msoCost)
 	
 # Check row-wise on each iso-cost selectivity dimension
 '''
