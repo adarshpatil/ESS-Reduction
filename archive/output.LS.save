@@ -1,0 +1,19 @@
+Reducing dimension 0
+Use selectivity row 0 with MSO 14.0732588377
+
+Plan Bouquet with budgets
+0 : 2294673
+1 : 3560362
+----------
+Reducing dimension 1
+Use selectivity row 6 with MSO 8.58901098901
+
+Plan Bouquet with budgets
+1 : 265520
+3 : 213761
+8 : 905435
+9 : 490138
+13 : 503207
+14 : 422863
+16 : 468759
+----------

@@ -1,11 +1,11 @@
 from __future__ import division
 import logging
+import copy
 
-# Setting logging configs
-logging.basicConfig(filename='run.log',format='%(levelname)s:%(message)s',level=logging.DEBUG)
+#Setting Global Constants
 
+logFile = "run.log"
 
-#Global Constants, can be taken as inputs at a later time
 location = "/home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/"
 
 # We assume uniform resolution n-dimensional plan matrix
@@ -15,8 +15,7 @@ numPlans = 18
 dimension = 2
 
 
-cost = [ [0 for x in xrange( pow(resolution,dimension) )] for x in xrange( numPlans )]
-
+###### DONOT CHANGE ANYTHING AFTER THIS POINT
 
 def loadData():
 	logging.info( " Loading data from files")
@@ -31,8 +30,6 @@ def loadData():
 				
 		f.close()
 	
-
-
 
 
 
@@ -62,10 +59,12 @@ def getIndexForLocation( loc ):
 def dimReduceUsingRow( d ):
 	bestRowMSO = 0.0
 	bestRow = 0
+	bouquet = {}
 	
 	# Check row-wise on the selected reduction dimension
 	for row in range(resolution):     #fix a row
 		fixRowBestPlans = []        #stores the best plan num for all the points corresponding to fixed row
+		budgetForBestPlans = {}     #stores the max cost budget needed to be given to each fixRowBestPlans
 		mso = 0.0
 		
 		for i in range( pow(resolution,dimension) ):
@@ -73,7 +72,7 @@ def dimReduceUsingRow( d ):
 			if loc[d] == row:
 				(p,c) = getOptimal( loc )
 				fixRowBestPlans.append(p)
-				
+				budgetForBestPlans[p] = 0
 		
 		# size of fixRowBestPlans is pow( resolution, dimension-1 )
 		
@@ -97,23 +96,32 @@ def dimReduceUsingRow( d ):
 			
 			bestPlanInFixedRow = fixRowBestPlans[index]
 			
-			if fixRowBestPlans[index] == OptPlan:  #OPTIMIZATION if OptPlan is same as fixRowBestPlans[index] subopt is 0 so skip iteration
+			if bestPlanInFixedRow == OptPlan:  #OPTIMIZATION: if OptPlan = fixRowBestPlans[index] subopt, is 0 so skip iteration
 				continue
-				
-			subOptCost = float(cost[bestPlanInFixedRow][i] / OptCost)
 			
-			if subOptCost > mso:
+			bestPlanInFixedRowCost = cost[bestPlanInFixedRow][i]
+			subOptCost = float( bestPlanInFixedRowCost / OptCost)
+			
+			if bestPlanInFixedRowCost > budgetForBestPlans[bestPlanInFixedRow]:      #find highest cost budget
+				budgetForBestPlans[bestPlanInFixedRow] = bestPlanInFixedRowCost
+				
+			if subOptCost > mso:        #find highest mso value per row
 				mso = subOptCost
 				
 		logging.debug(" MSO for reducing dimension " + str(d) + " using row " + str(row) + " is " + str(mso) )
+		
+		#find and return lowest MSO row
 		if row == 0:
 			bestRowMSO = mso
 			bestRow = 0
+			bouquet = copy.deepcopy(budgetForBestPlans)
+			
 		elif mso < bestRowMSO:
 			bestRowMSO = mso
 			bestRow = row
+			bouquet = copy.deepcopy(budgetForBestPlans)
 			
-	return (bestRowMSO,bestRow)
+	return (bestRowMSO,bestRow,bouquet)
 	
 
 
@@ -127,41 +135,26 @@ def getCoordinatesFromIndex( index ):
 	loc.reverse()
 	return loc
 	
-	
+
+'''
+#	
 ## MAIN
+## We can use this to test sequential run of ESSReduction
+#
+
+# Setting logging configs
+logging.basicConfig(filename=logFile,format='%(levelname)s:%(message)s',level=logging.DEBUG)
+
+cost = [ [0 for x in xrange( pow(resolution,dimension) )] for x in xrange( numPlans )]
+
 loadData()
 for i in range(dimension):
 	print "Reducing dimension " + str(i)
-	(msoCost, row) = dimReduceUsingRow(i)
+	(msoCost, row, bouquet) = dimReduceUsingRow(i)
 	print "Use selectivity row " + str(row) + " with MSO " + str(msoCost)
-	
-
+	print ""
+	print "Plan Bouquet with budgets"
+	for k,v in bouquet.iteritems():
+		print str(k) + " : " + str(v)
+	print "----------"
 '''
-for i in range(resolution):
-
-	msoCost = 0;
-	msoPlan = 0;
-	msolocx = 0;
-	msolocy = 0;
-	for j in range(resolution):
-		(bestPlan,bestCost) = getOptimal(i,j)
-		
-		# assuming PCM holds we check from i+1 to max
-		for k in range(i+1, resolution):
-			(p,c) = getOptimal(k,j)
-			if p == bestPlan:
-				continue
-			elif msoCost < ((cost[bestPlan][k][j] - p) / p):
-				msoCost = (cost[bestPlan][k][j] - p) /p
-				msoPlan = bestPlan
-				msolocx = k
-				msolocy = j
-	if msoCost < bestMSO:
-		bestMSO = msoCost
-		bestRow = i
-	print "Row " + str(i) + " MSO: " + str(msoCost) + " MSO Plan: " + str(msoPlan) + " MSO Loc(" + str(msolocx) + "," + str(msolocy) + ")"
-
-print "Best Row for Dimension reduction: Row  " + str(bestRow) + " with MSO: " + str(bestMSO)
-
-'''
-

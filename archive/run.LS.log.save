@@ -17,26 +17,6 @@ INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/14.txt
 INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/15.txt
 INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/16.txt
 INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/17.txt
-INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/18.txt
-INFO: Loading data from files
-INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/0.txt
-INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/1.txt
-INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/2.txt
-INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/3.txt
-INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/4.txt
-INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/5.txt
-INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/6.txt
-INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/7.txt
-INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/8.txt
-INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/9.txt
-INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/10.txt
-INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/11.txt
-INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/12.txt
-INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/13.txt
-INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/14.txt
-INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/15.txt
-INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/16.txt
-INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/17.txt
 DEBUG: MSO for reducing dimension 0 using row 0 is 14.0732588377
 DEBUG: MSO for reducing dimension 0 using row 1 is 14.0790054706
 DEBUG: MSO for reducing dimension 0 using row 2 is 14.0790054706
