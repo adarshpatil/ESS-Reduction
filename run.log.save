@@ -1,0 +1,1373 @@
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/0.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/1.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/2.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/3.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/4.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/5.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/6.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/7.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/8.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/9.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/10.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/11.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/12.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/13.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/14.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/15.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/16.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/17.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/18.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/19.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/20.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/21.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/22.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/23.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/24.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/25.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/26.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/27.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/28.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/29.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/30.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/31.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/32.txt
+INFO:root:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/33.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/0.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/1.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/2.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/3.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/4.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/5.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/6.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/7.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/8.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/9.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/10.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/11.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/12.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/13.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/14.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/15.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/16.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/17.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/18.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/19.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/20.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/21.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/22.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/23.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/24.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/25.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/26.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/27.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/28.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/29.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/30.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/31.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/32.txt
+INFO:reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/33.txt
+INFO: Loading data from files
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/0.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/1.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/2.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/3.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/4.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/5.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/6.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/7.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/8.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/9.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/10.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/11.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/12.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/13.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/14.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/15.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/16.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/17.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/18.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/19.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/20.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/21.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/22.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/23.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/24.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/25.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/26.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/27.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/28.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/29.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/30.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/31.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/32.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/33.txt
+INFO: Loading data from files
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/0.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/1.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/2.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/3.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/4.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/5.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/6.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/7.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/8.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/9.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/10.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/11.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/12.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/13.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/14.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/15.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/16.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/17.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/18.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/19.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/20.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/21.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/22.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/23.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/24.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/25.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/26.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/27.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/28.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/29.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/30.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/31.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/32.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/33.txt
+DEBUG: MSO for reducing dimension 0 using row 0 is 39.3106054703
+DEBUG: MSO for reducing dimension 0 using row 1 is 22.5948704862
+DEBUG: MSO for reducing dimension 0 using row 2 is 22.5948704862
+DEBUG: MSO for reducing dimension 0 using row 3 is 22.5948704862
+DEBUG: MSO for reducing dimension 0 using row 4 is 22.5948704862
+DEBUG: MSO for reducing dimension 0 using row 5 is 22.5948704862
+DEBUG: MSO for reducing dimension 0 using row 6 is 22.5948704862
+DEBUG: MSO for reducing dimension 0 using row 7 is 22.5948704862
+DEBUG: MSO for reducing dimension 0 using row 8 is 20.1485233383
+DEBUG: MSO for reducing dimension 0 using row 9 is 7.95007402293
+DEBUG: MSO for reducing dimension 0 using row 10 is 7.47146804684
+DEBUG: MSO for reducing dimension 0 using row 11 is 7.47146804684
+DEBUG: MSO for reducing dimension 0 using row 12 is 8.65744111584
+DEBUG: MSO for reducing dimension 0 using row 13 is 8.65744111584
+DEBUG: MSO for reducing dimension 0 using row 14 is 9.57059520154
+DEBUG: MSO for reducing dimension 0 using row 15 is 10.1286459932
+DEBUG: MSO for reducing dimension 0 using row 16 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 17 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 18 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 19 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 20 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 21 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 22 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 23 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 24 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 25 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 26 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 27 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 28 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 29 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 30 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 31 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 32 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 33 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 34 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 35 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 36 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 37 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 38 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 39 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 40 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 41 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 42 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 43 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 44 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 45 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 46 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 47 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 48 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 49 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 50 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 51 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 52 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 53 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 54 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 55 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 56 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 57 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 58 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 59 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 60 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 61 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 62 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 63 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 64 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 65 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 66 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 67 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 68 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 69 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 70 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 71 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 72 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 73 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 74 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 75 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 76 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 77 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 78 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 79 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 80 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 81 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 82 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 83 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 84 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 85 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 86 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 87 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 88 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 89 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 90 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 91 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 92 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 93 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 94 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 95 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 96 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 97 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 98 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 99 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 100 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 101 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 102 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 103 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 104 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 105 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 106 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 107 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 108 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 109 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 110 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 111 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 112 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 113 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 114 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 115 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 116 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 117 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 118 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 119 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 120 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 121 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 122 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 123 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 124 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 125 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 126 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 127 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 128 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 129 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 130 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 131 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 132 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 133 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 134 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 135 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 136 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 137 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 138 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 139 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 140 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 141 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 142 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 143 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 144 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 145 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 146 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 147 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 148 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 149 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 150 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 151 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 152 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 153 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 154 is 11.2561954472
+DEBUG: MSO for reducing dimension 0 using row 155 is 11.2561954472
+DEBUG: MSO for reducing dimension 0 using row 156 is 11.2561954472
+DEBUG: MSO for reducing dimension 0 using row 157 is 11.2561954472
+DEBUG: MSO for reducing dimension 0 using row 158 is 11.2561954472
+DEBUG: MSO for reducing dimension 0 using row 159 is 11.2561954472
+DEBUG: MSO for reducing dimension 0 using row 160 is 11.2561954472
+DEBUG: MSO for reducing dimension 0 using row 161 is 11.2625553752
+DEBUG: MSO for reducing dimension 0 using row 162 is 11.2625553752
+DEBUG: MSO for reducing dimension 0 using row 163 is 11.2625553752
+DEBUG: MSO for reducing dimension 0 using row 164 is 11.2625553752
+DEBUG: MSO for reducing dimension 0 using row 165 is 11.2625553752
+DEBUG: MSO for reducing dimension 0 using row 166 is 11.2625553752
+DEBUG: MSO for reducing dimension 0 using row 167 is 11.2625553752
+DEBUG: MSO for reducing dimension 0 using row 168 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 169 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 170 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 171 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 172 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 173 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 174 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 175 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 176 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 177 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 178 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 179 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 180 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 181 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 182 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 183 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 184 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 185 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 186 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 187 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 188 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 189 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 190 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 191 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 192 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 193 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 194 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 195 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 196 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 197 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 198 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 199 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 200 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 201 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 202 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 203 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 204 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 205 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 206 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 207 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 208 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 209 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 210 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 211 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 212 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 213 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 214 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 215 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 216 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 217 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 218 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 219 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 220 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 221 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 222 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 223 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 224 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 225 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 226 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 227 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 228 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 229 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 230 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 231 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 232 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 233 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 234 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 235 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 236 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 237 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 238 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 239 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 240 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 241 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 242 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 243 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 244 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 245 is 12.0748717049
+DEBUG: MSO for reducing dimension 0 using row 246 is 12.0764945831
+DEBUG: MSO for reducing dimension 0 using row 247 is 12.0764945831
+DEBUG: MSO for reducing dimension 0 using row 248 is 12.0764945831
+DEBUG: MSO for reducing dimension 0 using row 249 is 12.0764945831
+DEBUG: MSO for reducing dimension 0 using row 250 is 12.0764945831
+DEBUG: MSO for reducing dimension 0 using row 251 is 12.0764945831
+DEBUG: MSO for reducing dimension 0 using row 252 is 12.0764945831
+DEBUG: MSO for reducing dimension 0 using row 253 is 12.0764945831
+DEBUG: MSO for reducing dimension 0 using row 254 is 12.0764945831
+DEBUG: MSO for reducing dimension 0 using row 255 is 12.0764945831
+DEBUG: MSO for reducing dimension 0 using row 256 is 12.0764945831
+DEBUG: MSO for reducing dimension 0 using row 257 is 12.1568489846
+DEBUG: MSO for reducing dimension 0 using row 258 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 259 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 260 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 261 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 262 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 263 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 264 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 265 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 266 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 267 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 268 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 269 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 270 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 271 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 272 is 12.173647967
+DEBUG: MSO for reducing dimension 0 using row 273 is 12.1764112461
+DEBUG: MSO for reducing dimension 0 using row 274 is 12.1790868021
+DEBUG: MSO for reducing dimension 0 using row 275 is 12.184744945
+DEBUG: MSO for reducing dimension 0 using row 276 is 12.184744945
+DEBUG: MSO for reducing dimension 0 using row 277 is 12.184744945
+DEBUG: MSO for reducing dimension 0 using row 278 is 12.184744945
+DEBUG: MSO for reducing dimension 0 using row 279 is 12.184744945
+DEBUG: MSO for reducing dimension 0 using row 280 is 12.184744945
+DEBUG: MSO for reducing dimension 0 using row 281 is 12.184744945
+DEBUG: MSO for reducing dimension 0 using row 282 is 12.184744945
+DEBUG: MSO for reducing dimension 0 using row 283 is 12.184744945
+DEBUG: MSO for reducing dimension 0 using row 284 is 12.184744945
+DEBUG: MSO for reducing dimension 0 using row 285 is 12.184744945
+DEBUG: MSO for reducing dimension 0 using row 286 is 12.268125795
+DEBUG: MSO for reducing dimension 0 using row 287 is 12.2714592745
+DEBUG: MSO for reducing dimension 0 using row 288 is 12.2754506777
+DEBUG: MSO for reducing dimension 0 using row 289 is 12.2786087109
+DEBUG: MSO for reducing dimension 0 using row 290 is 12.2786087109
+DEBUG: MSO for reducing dimension 0 using row 291 is 12.2786087109
+DEBUG: MSO for reducing dimension 0 using row 292 is 12.2746611693
+DEBUG: MSO for reducing dimension 0 using row 293 is 12.2786087109
+DEBUG: MSO for reducing dimension 0 using row 294 is 12.3161542173
+DEBUG: MSO for reducing dimension 0 using row 295 is 12.3161542173
+DEBUG: MSO for reducing dimension 0 using row 296 is 12.3161542173
+DEBUG: MSO for reducing dimension 0 using row 297 is 12.3161542173
+DEBUG: MSO for reducing dimension 0 using row 298 is 12.3161542173
+DEBUG: MSO for reducing dimension 0 using row 299 is 12.3161542173
+DEBUG: MSO for reducing dimension 1 using row 0 is 49.889843659
+DEBUG: MSO for reducing dimension 1 using row 1 is 47.605258072
+DEBUG: MSO for reducing dimension 1 using row 2 is 48.3511712372
+DEBUG: MSO for reducing dimension 1 using row 3 is 47.5811935624
+DEBUG: MSO for reducing dimension 1 using row 4 is 20.1521026556
+DEBUG: MSO for reducing dimension 1 using row 5 is 17.4561931794
+DEBUG: MSO for reducing dimension 1 using row 6 is 14.1210487509
+DEBUG: MSO for reducing dimension 1 using row 7 is 13.5755047409
+DEBUG: MSO for reducing dimension 1 using row 8 is 9.43110515529
+DEBUG: MSO for reducing dimension 1 using row 9 is 9.43264116001
+DEBUG: MSO for reducing dimension 1 using row 10 is 9.66683655467
+DEBUG: MSO for reducing dimension 1 using row 11 is 9.65682468729
+DEBUG: MSO for reducing dimension 1 using row 12 is 9.65379185946
+DEBUG: MSO for reducing dimension 1 using row 13 is 9.64397207624
+DEBUG: MSO for reducing dimension 1 using row 14 is 9.64034984508
+DEBUG: MSO for reducing dimension 1 using row 15 is 9.64034984508
+DEBUG: MSO for reducing dimension 1 using row 16 is 9.63698764464
+DEBUG: MSO for reducing dimension 1 using row 17 is 9.86315131142
+DEBUG: MSO for reducing dimension 1 using row 18 is 9.85958877336
+DEBUG: MSO for reducing dimension 1 using row 19 is 9.85343445795
+DEBUG: MSO for reducing dimension 1 using row 20 is 9.88965732818
+DEBUG: MSO for reducing dimension 1 using row 21 is 9.88609721788
+DEBUG: MSO for reducing dimension 1 using row 22 is 9.88609721788
+DEBUG: MSO for reducing dimension 1 using row 23 is 9.87622620862
+DEBUG: MSO for reducing dimension 1 using row 24 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 25 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 26 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 27 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 28 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 29 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 30 is 10.4179314112
+DEBUG: MSO for reducing dimension 1 using row 31 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 32 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 33 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 34 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 35 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 36 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 37 is 10.6512760569
+DEBUG: MSO for reducing dimension 1 using row 38 is 10.6512760569
+DEBUG: MSO for reducing dimension 1 using row 39 is 10.6369871021
+DEBUG: MSO for reducing dimension 1 using row 40 is 10.6369871021
+DEBUG: MSO for reducing dimension 1 using row 41 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 42 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 43 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 44 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 45 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 46 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 47 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 48 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 49 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 50 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 51 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 52 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 53 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 54 is 10.5591376891
+DEBUG: MSO for reducing dimension 1 using row 55 is 10.5630360206
+DEBUG: MSO for reducing dimension 1 using row 56 is 10.5660156707
+DEBUG: MSO for reducing dimension 1 using row 57 is 10.5699138502
+DEBUG: MSO for reducing dimension 1 using row 58 is 10.5699138502
+DEBUG: MSO for reducing dimension 1 using row 59 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 60 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 61 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 62 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 63 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 64 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 65 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 66 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 67 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 68 is 10.4747065018
+DEBUG: MSO for reducing dimension 1 using row 69 is 10.4747065018
+DEBUG: MSO for reducing dimension 1 using row 70 is 10.4642898935
+DEBUG: MSO for reducing dimension 1 using row 71 is 10.4642898935
+DEBUG: MSO for reducing dimension 1 using row 72 is 10.4642898935
+DEBUG: MSO for reducing dimension 1 using row 73 is 10.4678212029
+DEBUG: MSO for reducing dimension 1 using row 74 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 75 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 76 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 77 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 78 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 79 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 80 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 81 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 82 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 83 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 84 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 85 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 86 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 87 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 88 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 89 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 90 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 91 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 92 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 93 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 94 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 95 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 96 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 97 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 98 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 99 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 100 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 101 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 102 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 103 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 104 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 105 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 106 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 107 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 108 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 109 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 110 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 111 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 112 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 113 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 114 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 115 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 116 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 117 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 118 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 119 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 120 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 121 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 122 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 123 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 124 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 125 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 126 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 127 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 128 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 129 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 130 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 131 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 132 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 133 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 134 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 135 is 10.5236089991
+DEBUG: MSO for reducing dimension 1 using row 136 is 10.5236089991
+DEBUG: MSO for reducing dimension 1 using row 137 is 10.5275470815
+DEBUG: MSO for reducing dimension 1 using row 138 is 10.5275470815
+DEBUG: MSO for reducing dimension 1 using row 139 is 10.506726982
+DEBUG: MSO for reducing dimension 1 using row 140 is 10.506726982
+DEBUG: MSO for reducing dimension 1 using row 141 is 10.506726982
+DEBUG: MSO for reducing dimension 1 using row 142 is 10.506726982
+DEBUG: MSO for reducing dimension 1 using row 143 is 10.506726982
+DEBUG: MSO for reducing dimension 1 using row 144 is 10.5102558103
+DEBUG: MSO for reducing dimension 1 using row 145 is 10.5102558103
+DEBUG: MSO for reducing dimension 1 using row 146 is 10.5102558103
+DEBUG: MSO for reducing dimension 1 using row 147 is 10.5102558103
+DEBUG: MSO for reducing dimension 1 using row 148 is 10.5102558103
+DEBUG: MSO for reducing dimension 1 using row 149 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 150 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 151 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 152 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 153 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 154 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 155 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 156 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 157 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 158 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 159 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 160 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 161 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 162 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 163 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 164 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 165 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 166 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 167 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 168 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 169 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 170 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 171 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 172 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 173 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 174 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 175 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 176 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 177 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 178 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 179 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 180 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 181 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 182 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 183 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 184 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 185 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 186 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 187 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 188 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 189 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 190 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 191 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 192 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 193 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 194 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 195 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 196 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 197 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 198 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 199 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 200 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 201 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 202 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 203 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 204 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 205 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 206 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 207 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 208 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 209 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 210 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 211 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 212 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 213 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 214 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 215 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 216 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 217 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 218 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 219 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 220 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 221 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 222 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 223 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 224 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 225 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 226 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 227 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 228 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 229 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 230 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 231 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 232 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 233 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 234 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 235 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 236 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 237 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 238 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 239 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 240 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 241 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 242 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 243 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 244 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 245 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 246 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 247 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 248 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 249 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 250 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 251 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 252 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 253 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 254 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 255 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 256 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 257 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 258 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 259 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 260 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 261 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 262 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 263 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 264 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 265 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 266 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 267 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 268 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 269 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 270 is 10.8256819953
+DEBUG: MSO for reducing dimension 1 using row 271 is 10.8256819953
+DEBUG: MSO for reducing dimension 1 using row 272 is 10.8256819953
+DEBUG: MSO for reducing dimension 1 using row 273 is 10.8256819953
+DEBUG: MSO for reducing dimension 1 using row 274 is 10.8429256127
+DEBUG: MSO for reducing dimension 1 using row 275 is 10.8429256127
+DEBUG: MSO for reducing dimension 1 using row 276 is 10.8429256127
+DEBUG: MSO for reducing dimension 1 using row 277 is 10.8429256127
+DEBUG: MSO for reducing dimension 1 using row 278 is 10.8429256127
+DEBUG: MSO for reducing dimension 1 using row 279 is 10.81881601
+DEBUG: MSO for reducing dimension 1 using row 280 is 10.81881601
+DEBUG: MSO for reducing dimension 1 using row 281 is 10.81881601
+DEBUG: MSO for reducing dimension 1 using row 282 is 10.81881601
+DEBUG: MSO for reducing dimension 1 using row 283 is 10.81881601
+DEBUG: MSO for reducing dimension 1 using row 284 is 10.8221676605
+DEBUG: MSO for reducing dimension 1 using row 285 is 10.8221676605
+DEBUG: MSO for reducing dimension 1 using row 286 is 10.8221676605
+DEBUG: MSO for reducing dimension 1 using row 287 is 10.8221676605
+DEBUG: MSO for reducing dimension 1 using row 288 is 10.8256819953
+DEBUG: MSO for reducing dimension 1 using row 289 is 10.8256819953
+DEBUG: MSO for reducing dimension 1 using row 290 is 10.8256819953
+DEBUG: MSO for reducing dimension 1 using row 291 is 10.8256819953
+DEBUG: MSO for reducing dimension 1 using row 292 is 10.8429256127
+DEBUG: MSO for reducing dimension 1 using row 293 is 10.8429256127
+DEBUG: MSO for reducing dimension 1 using row 294 is 10.8429256127
+DEBUG: MSO for reducing dimension 1 using row 295 is 10.8429256127
+DEBUG: MSO for reducing dimension 1 using row 296 is 10.8429256127
+DEBUG: MSO for reducing dimension 1 using row 297 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 298 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 299 is 10.8679965713
+INFO: Loading data from files
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/0.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/1.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/2.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/3.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/4.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/5.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/6.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/7.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/8.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/9.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/10.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/11.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/12.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/13.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/14.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/15.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/16.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/17.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/18.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/19.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/20.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/21.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/22.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/23.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/24.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/25.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/26.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/27.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/28.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/29.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/30.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/31.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/32.txt
+INFO: Reading file /home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/33.txt
+DEBUG: MSO for reducing dimension 0 using row 0 is 39.3106054703
+DEBUG: MSO for reducing dimension 0 using row 1 is 22.5948704862
+DEBUG: MSO for reducing dimension 0 using row 2 is 22.5948704862
+DEBUG: MSO for reducing dimension 0 using row 3 is 22.5948704862
+DEBUG: MSO for reducing dimension 0 using row 4 is 22.5948704862
+DEBUG: MSO for reducing dimension 0 using row 5 is 22.5948704862
+DEBUG: MSO for reducing dimension 0 using row 6 is 22.5948704862
+DEBUG: MSO for reducing dimension 0 using row 7 is 22.5948704862
+DEBUG: MSO for reducing dimension 0 using row 8 is 20.1485233383
+DEBUG: MSO for reducing dimension 0 using row 9 is 7.95007402293
+DEBUG: MSO for reducing dimension 0 using row 10 is 7.47146804684
+DEBUG: MSO for reducing dimension 0 using row 11 is 7.47146804684
+DEBUG: MSO for reducing dimension 0 using row 12 is 8.65744111584
+DEBUG: MSO for reducing dimension 0 using row 13 is 8.65744111584
+DEBUG: MSO for reducing dimension 0 using row 14 is 9.57059520154
+DEBUG: MSO for reducing dimension 0 using row 15 is 10.1286459932
+DEBUG: MSO for reducing dimension 0 using row 16 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 17 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 18 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 19 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 20 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 21 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 22 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 23 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 24 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 25 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 26 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 27 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 28 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 29 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 30 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 31 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 32 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 33 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 34 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 35 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 36 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 37 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 38 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 39 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 40 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 41 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 42 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 43 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 44 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 45 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 46 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 47 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 48 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 49 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 50 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 51 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 52 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 53 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 54 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 55 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 56 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 57 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 58 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 59 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 60 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 61 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 62 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 63 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 64 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 65 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 66 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 67 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 68 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 69 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 70 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 71 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 72 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 73 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 74 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 75 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 76 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 77 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 78 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 79 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 80 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 81 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 82 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 83 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 84 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 85 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 86 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 87 is 10.7337163911
+DEBUG: MSO for reducing dimension 0 using row 88 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 89 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 90 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 91 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 92 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 93 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 94 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 95 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 96 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 97 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 98 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 99 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 100 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 101 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 102 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 103 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 104 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 105 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 106 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 107 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 108 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 109 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 110 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 111 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 112 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 113 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 114 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 115 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 116 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 117 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 118 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 119 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 120 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 121 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 122 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 123 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 124 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 125 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 126 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 127 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 128 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 129 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 130 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 131 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 132 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 133 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 134 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 135 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 136 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 137 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 138 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 139 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 140 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 141 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 142 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 143 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 144 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 145 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 146 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 147 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 148 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 149 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 150 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 151 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 152 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 153 is 10.9224088776
+DEBUG: MSO for reducing dimension 0 using row 154 is 11.2561954472
+DEBUG: MSO for reducing dimension 0 using row 155 is 11.2561954472
+DEBUG: MSO for reducing dimension 0 using row 156 is 11.2561954472
+DEBUG: MSO for reducing dimension 0 using row 157 is 11.2561954472
+DEBUG: MSO for reducing dimension 0 using row 158 is 11.2561954472
+DEBUG: MSO for reducing dimension 0 using row 159 is 11.2561954472
+DEBUG: MSO for reducing dimension 0 using row 160 is 11.2561954472
+DEBUG: MSO for reducing dimension 0 using row 161 is 11.2625553752
+DEBUG: MSO for reducing dimension 0 using row 162 is 11.2625553752
+DEBUG: MSO for reducing dimension 0 using row 163 is 11.2625553752
+DEBUG: MSO for reducing dimension 0 using row 164 is 11.2625553752
+DEBUG: MSO for reducing dimension 0 using row 165 is 11.2625553752
+DEBUG: MSO for reducing dimension 0 using row 166 is 11.2625553752
+DEBUG: MSO for reducing dimension 0 using row 167 is 11.2625553752
+DEBUG: MSO for reducing dimension 0 using row 168 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 169 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 170 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 171 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 172 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 173 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 174 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 175 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 176 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 177 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 178 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 179 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 180 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 181 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 182 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 183 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 184 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 185 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 186 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 187 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 188 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 189 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 190 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 191 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 192 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 193 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 194 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 195 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 196 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 197 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 198 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 199 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 200 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 201 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 202 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 203 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 204 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 205 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 206 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 207 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 208 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 209 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 210 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 211 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 212 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 213 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 214 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 215 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 216 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 217 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 218 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 219 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 220 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 221 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 222 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 223 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 224 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 225 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 226 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 227 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 228 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 229 is 11.2773805869
+DEBUG: MSO for reducing dimension 0 using row 230 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 231 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 232 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 233 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 234 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 235 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 236 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 237 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 238 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 239 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 240 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 241 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 242 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 243 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 244 is 11.9807886311
+DEBUG: MSO for reducing dimension 0 using row 245 is 12.0748717049
+DEBUG: MSO for reducing dimension 0 using row 246 is 12.0764945831
+DEBUG: MSO for reducing dimension 0 using row 247 is 12.0764945831
+DEBUG: MSO for reducing dimension 0 using row 248 is 12.0764945831
+DEBUG: MSO for reducing dimension 0 using row 249 is 12.0764945831
+DEBUG: MSO for reducing dimension 0 using row 250 is 12.0764945831
+DEBUG: MSO for reducing dimension 0 using row 251 is 12.0764945831
+DEBUG: MSO for reducing dimension 0 using row 252 is 12.0764945831
+DEBUG: MSO for reducing dimension 0 using row 253 is 12.0764945831
+DEBUG: MSO for reducing dimension 0 using row 254 is 12.0764945831
+DEBUG: MSO for reducing dimension 0 using row 255 is 12.0764945831
+DEBUG: MSO for reducing dimension 0 using row 256 is 12.0764945831
+DEBUG: MSO for reducing dimension 0 using row 257 is 12.1568489846
+DEBUG: MSO for reducing dimension 0 using row 258 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 259 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 260 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 261 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 262 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 263 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 264 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 265 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 266 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 267 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 268 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 269 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 270 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 271 is 12.1608403877
+DEBUG: MSO for reducing dimension 0 using row 272 is 12.173647967
+DEBUG: MSO for reducing dimension 0 using row 273 is 12.1764112461
+DEBUG: MSO for reducing dimension 0 using row 274 is 12.1790868021
+DEBUG: MSO for reducing dimension 0 using row 275 is 12.184744945
+DEBUG: MSO for reducing dimension 0 using row 276 is 12.184744945
+DEBUG: MSO for reducing dimension 0 using row 277 is 12.184744945
+DEBUG: MSO for reducing dimension 0 using row 278 is 12.184744945
+DEBUG: MSO for reducing dimension 0 using row 279 is 12.184744945
+DEBUG: MSO for reducing dimension 0 using row 280 is 12.184744945
+DEBUG: MSO for reducing dimension 0 using row 281 is 12.184744945
+DEBUG: MSO for reducing dimension 0 using row 282 is 12.184744945
+DEBUG: MSO for reducing dimension 0 using row 283 is 12.184744945
+DEBUG: MSO for reducing dimension 0 using row 284 is 12.184744945
+DEBUG: MSO for reducing dimension 0 using row 285 is 12.184744945
+DEBUG: MSO for reducing dimension 0 using row 286 is 12.268125795
+DEBUG: MSO for reducing dimension 0 using row 287 is 12.2714592745
+DEBUG: MSO for reducing dimension 0 using row 288 is 12.2754506777
+DEBUG: MSO for reducing dimension 0 using row 289 is 12.2786087109
+DEBUG: MSO for reducing dimension 0 using row 290 is 12.2786087109
+DEBUG: MSO for reducing dimension 0 using row 291 is 12.2786087109
+DEBUG: MSO for reducing dimension 0 using row 292 is 12.2746611693
+DEBUG: MSO for reducing dimension 0 using row 293 is 12.2786087109
+DEBUG: MSO for reducing dimension 0 using row 294 is 12.3161542173
+DEBUG: MSO for reducing dimension 0 using row 295 is 12.3161542173
+DEBUG: MSO for reducing dimension 0 using row 296 is 12.3161542173
+DEBUG: MSO for reducing dimension 0 using row 297 is 12.3161542173
+DEBUG: MSO for reducing dimension 0 using row 298 is 12.3161542173
+DEBUG: MSO for reducing dimension 0 using row 299 is 12.3161542173
+DEBUG: MSO for reducing dimension 1 using row 0 is 49.889843659
+DEBUG: MSO for reducing dimension 1 using row 1 is 47.605258072
+DEBUG: MSO for reducing dimension 1 using row 2 is 48.3511712372
+DEBUG: MSO for reducing dimension 1 using row 3 is 47.5811935624
+DEBUG: MSO for reducing dimension 1 using row 4 is 20.1521026556
+DEBUG: MSO for reducing dimension 1 using row 5 is 17.4561931794
+DEBUG: MSO for reducing dimension 1 using row 6 is 14.1210487509
+DEBUG: MSO for reducing dimension 1 using row 7 is 13.5755047409
+DEBUG: MSO for reducing dimension 1 using row 8 is 9.43110515529
+DEBUG: MSO for reducing dimension 1 using row 9 is 9.43264116001
+DEBUG: MSO for reducing dimension 1 using row 10 is 9.66683655467
+DEBUG: MSO for reducing dimension 1 using row 11 is 9.65682468729
+DEBUG: MSO for reducing dimension 1 using row 12 is 9.65379185946
+DEBUG: MSO for reducing dimension 1 using row 13 is 9.64397207624
+DEBUG: MSO for reducing dimension 1 using row 14 is 9.64034984508
+DEBUG: MSO for reducing dimension 1 using row 15 is 9.64034984508
+DEBUG: MSO for reducing dimension 1 using row 16 is 9.63698764464
+DEBUG: MSO for reducing dimension 1 using row 17 is 9.86315131142
+DEBUG: MSO for reducing dimension 1 using row 18 is 9.85958877336
+DEBUG: MSO for reducing dimension 1 using row 19 is 9.85343445795
+DEBUG: MSO for reducing dimension 1 using row 20 is 9.88965732818
+DEBUG: MSO for reducing dimension 1 using row 21 is 9.88609721788
+DEBUG: MSO for reducing dimension 1 using row 22 is 9.88609721788
+DEBUG: MSO for reducing dimension 1 using row 23 is 9.87622620862
+DEBUG: MSO for reducing dimension 1 using row 24 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 25 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 26 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 27 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 28 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 29 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 30 is 10.4179314112
+DEBUG: MSO for reducing dimension 1 using row 31 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 32 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 33 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 34 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 35 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 36 is 10.1187717039
+DEBUG: MSO for reducing dimension 1 using row 37 is 10.6512760569
+DEBUG: MSO for reducing dimension 1 using row 38 is 10.6512760569
+DEBUG: MSO for reducing dimension 1 using row 39 is 10.6369871021
+DEBUG: MSO for reducing dimension 1 using row 40 is 10.6369871021
+DEBUG: MSO for reducing dimension 1 using row 41 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 42 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 43 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 44 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 45 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 46 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 47 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 48 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 49 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 50 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 51 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 52 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 53 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 54 is 10.5591376891
+DEBUG: MSO for reducing dimension 1 using row 55 is 10.5630360206
+DEBUG: MSO for reducing dimension 1 using row 56 is 10.5660156707
+DEBUG: MSO for reducing dimension 1 using row 57 is 10.5699138502
+DEBUG: MSO for reducing dimension 1 using row 58 is 10.5699138502
+DEBUG: MSO for reducing dimension 1 using row 59 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 60 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 61 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 62 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 63 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 64 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 65 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 66 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 67 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 68 is 10.4747065018
+DEBUG: MSO for reducing dimension 1 using row 69 is 10.4747065018
+DEBUG: MSO for reducing dimension 1 using row 70 is 10.4642898935
+DEBUG: MSO for reducing dimension 1 using row 71 is 10.4642898935
+DEBUG: MSO for reducing dimension 1 using row 72 is 10.4642898935
+DEBUG: MSO for reducing dimension 1 using row 73 is 10.4678212029
+DEBUG: MSO for reducing dimension 1 using row 74 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 75 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 76 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 77 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 78 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 79 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 80 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 81 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 82 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 83 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 84 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 85 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 86 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 87 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 88 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 89 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 90 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 91 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 92 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 93 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 94 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 95 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 96 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 97 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 98 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 99 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 100 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 101 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 102 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 103 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 104 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 105 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 106 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 107 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 108 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 109 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 110 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 111 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 112 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 113 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 114 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 115 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 116 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 117 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 118 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 119 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 120 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 121 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 122 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 123 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 124 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 125 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 126 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 127 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 128 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 129 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 130 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 131 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 132 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 133 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 134 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 135 is 10.5236089991
+DEBUG: MSO for reducing dimension 1 using row 136 is 10.5236089991
+DEBUG: MSO for reducing dimension 1 using row 137 is 10.5275470815
+DEBUG: MSO for reducing dimension 1 using row 138 is 10.5275470815
+DEBUG: MSO for reducing dimension 1 using row 139 is 10.506726982
+DEBUG: MSO for reducing dimension 1 using row 140 is 10.506726982
+DEBUG: MSO for reducing dimension 1 using row 141 is 10.506726982
+DEBUG: MSO for reducing dimension 1 using row 142 is 10.506726982
+DEBUG: MSO for reducing dimension 1 using row 143 is 10.506726982
+DEBUG: MSO for reducing dimension 1 using row 144 is 10.5102558103
+DEBUG: MSO for reducing dimension 1 using row 145 is 10.5102558103
+DEBUG: MSO for reducing dimension 1 using row 146 is 10.5102558103
+DEBUG: MSO for reducing dimension 1 using row 147 is 10.5102558103
+DEBUG: MSO for reducing dimension 1 using row 148 is 10.5102558103
+DEBUG: MSO for reducing dimension 1 using row 149 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 150 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 151 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 152 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 153 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 154 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 155 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 156 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 157 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 158 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 159 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 160 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 161 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 162 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 163 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 164 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 165 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 166 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 167 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 168 is 10.6581469649
+DEBUG: MSO for reducing dimension 1 using row 169 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 170 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 171 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 172 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 173 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 174 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 175 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 176 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 177 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 178 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 179 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 180 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 181 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 182 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 183 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 184 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 185 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 186 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 187 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 188 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 189 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 190 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 191 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 192 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 193 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 194 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 195 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 196 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 197 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 198 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 199 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 200 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 201 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 202 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 203 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 204 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 205 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 206 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 207 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 208 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 209 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 210 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 211 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 212 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 213 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 214 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 215 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 216 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 217 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 218 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 219 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 220 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 221 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 222 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 223 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 224 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 225 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 226 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 227 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 228 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 229 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 230 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 231 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 232 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 233 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 234 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 235 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 236 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 237 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 238 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 239 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 240 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 241 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 242 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 243 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 244 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 245 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 246 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 247 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 248 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 249 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 250 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 251 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 252 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 253 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 254 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 255 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 256 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 257 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 258 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 259 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 260 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 261 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 262 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 263 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 264 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 265 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 266 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 267 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 268 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 269 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 270 is 10.8256819953
+DEBUG: MSO for reducing dimension 1 using row 271 is 10.8256819953
+DEBUG: MSO for reducing dimension 1 using row 272 is 10.8256819953
+DEBUG: MSO for reducing dimension 1 using row 273 is 10.8256819953
+DEBUG: MSO for reducing dimension 1 using row 274 is 10.8429256127
+DEBUG: MSO for reducing dimension 1 using row 275 is 10.8429256127
+DEBUG: MSO for reducing dimension 1 using row 276 is 10.8429256127
+DEBUG: MSO for reducing dimension 1 using row 277 is 10.8429256127
+DEBUG: MSO for reducing dimension 1 using row 278 is 10.8429256127
+DEBUG: MSO for reducing dimension 1 using row 279 is 10.81881601
+DEBUG: MSO for reducing dimension 1 using row 280 is 10.81881601
+DEBUG: MSO for reducing dimension 1 using row 281 is 10.81881601
+DEBUG: MSO for reducing dimension 1 using row 282 is 10.81881601
+DEBUG: MSO for reducing dimension 1 using row 283 is 10.81881601
+DEBUG: MSO for reducing dimension 1 using row 284 is 10.8221676605
+DEBUG: MSO for reducing dimension 1 using row 285 is 10.8221676605
+DEBUG: MSO for reducing dimension 1 using row 286 is 10.8221676605
+DEBUG: MSO for reducing dimension 1 using row 287 is 10.8221676605
+DEBUG: MSO for reducing dimension 1 using row 288 is 10.8256819953
+DEBUG: MSO for reducing dimension 1 using row 289 is 10.8256819953
+DEBUG: MSO for reducing dimension 1 using row 290 is 10.8256819953
+DEBUG: MSO for reducing dimension 1 using row 291 is 10.8256819953
+DEBUG: MSO for reducing dimension 1 using row 292 is 10.8429256127
+DEBUG: MSO for reducing dimension 1 using row 293 is 10.8429256127
+DEBUG: MSO for reducing dimension 1 using row 294 is 10.8429256127
+DEBUG: MSO for reducing dimension 1 using row 295 is 10.8429256127
+DEBUG: MSO for reducing dimension 1 using row 296 is 10.8429256127
+DEBUG: MSO for reducing dimension 1 using row 297 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 298 is 10.8679965713
+DEBUG: MSO for reducing dimension 1 using row 299 is 10.8679965713

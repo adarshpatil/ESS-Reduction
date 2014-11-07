@@ -1,12 +1,17 @@
 from __future__ import division
+import logging
+
+# Setting logging configs
+logging.basicConfig(filename='run.log',format='%(levelname)s:%(message)s',level=logging.DEBUG)
+
 
 #Global Constants, can be taken as inputs at a later time
-location = "/home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION/"
+location = "/home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/"
 
 # We assume uniform resolution n-dimensional plan matrix
 resolution = 300
 
-numPlans = 34
+numPlans = 18
 dimension = 2
 
 
@@ -14,9 +19,10 @@ cost = [ [0 for x in xrange( pow(resolution,dimension) )] for x in xrange( numPl
 
 
 def loadData():
+	logging.info( " Loading data from files")
 	for k in range(numPlans):
 		file = location + str(k) + ".txt"
-		print "reading file " + file
+		logging.info( " Reading file " + file )
 	
 		f = open(file,'r')
 		
@@ -56,7 +62,8 @@ def getIndexForLocation( loc ):
 def dimReduceUsingRow( d ):
 	bestRowMSO = 0.0
 	bestRow = 0
-	 
+	
+	# Check row-wise on the selected reduction dimension
 	for row in range(resolution):     #fix a row
 		fixRowBestPlans = []        #stores the best plan num for all the points corresponding to fixed row
 		mso = 0.0
@@ -98,13 +105,13 @@ def dimReduceUsingRow( d ):
 			if subOptCost > mso:
 				mso = subOptCost
 				
-		print mso		
+		logging.debug(" MSO for reducing dimension " + str(d) + " using row " + str(row) + " is " + str(mso) )
 		if row == 0:
 			bestRowMSO = mso
 			bestRow = 0
 		elif mso < bestRowMSO:
 			bestRowMSO = mso
-			bestRow = i
+			bestRow = row
 			
 	return (bestRowMSO,bestRow)
 	
@@ -128,7 +135,7 @@ for i in range(dimension):
 	(msoCost, row) = dimReduceUsingRow(i)
 	print "Use selectivity row " + str(row) + " with MSO " + str(msoCost)
 	
-# Check row-wise on each iso-cost selectivity dimension
+
 '''
 for i in range(resolution):
 
