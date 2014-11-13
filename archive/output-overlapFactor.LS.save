@@ -1,0 +1,24 @@
+Loading data
+Processing started.. (Refer run logs)
+Forking 2 threads
+Reducing dimension 1
+Use selectivity row 0 with MSO 14.0732588377
+
+Here's the Plan Bouquet
+Plan Number : Budget : Overlap Factor
+0 : 2294673.0 : 4.74314381271
+1 : 3560362.0 : 1.02035032028
+----------
+Reducing dimension 1
+Use selectivity row 6 with MSO 8.58901098901
+
+Here's the Plan Bouquet
+Plan Number : Budget : Overlap Factor
+1 : 265520.0 : 4.1895206243
+3 : 213761.0 : 1.59030100334
+8 : 905435.0 : 3.32763757981
+9 : 490138.0 : 6.85284280936
+13 : 503207.0 : 17.77212932
+14 : 422863.0 : 2.63690176695
+16 : 468759.0 : 4.30004777831
+----------

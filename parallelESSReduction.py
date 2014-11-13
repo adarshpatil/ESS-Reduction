@@ -7,13 +7,13 @@ import Queue
 
 logFile = "parallel_run.log"
 
-location = "/home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/"
+location = "/home/mas/13/eleprdee/Documents/DBProject/input/EAIQ8_4D_20/"
 
 # We assume uniform resolution n-dimensional plan matrix
-resolution = 300
+resolution = 20
 
-numPlans = 18
-dimension = 2
+numPlans = 324
+dimension = 4
 
 numThreads = dimension   #by default we inovoke as many threads as dimensions for max parallelism
 
@@ -42,9 +42,10 @@ class parallelESSReduction(threading.Thread):
 			print "Reducing dimension " + str(i)
 			print "Use selectivity row " + str(row) + " with MSO " + str(msoCost)
 			print ""
-			print "Plan Bouquet with budgets"
-			for k,v in bouquet.iteritems():
-				print str(k) + " : " + str(v)
+			print "Here's the Plan Bouquet"
+			print "Plan Number : Budget : Overlap Factor"
+			for plan,planDetails in bouquet.items():
+				print str(plan) + " : " + str(planDetails[0]) + " : " + str(planDetails[1])
 			print "----------"
 		
 			lock.release()

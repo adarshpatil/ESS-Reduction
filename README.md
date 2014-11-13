@@ -13,8 +13,8 @@ Database Systems - IISc Course Project
 > discovered at run-time through a calibrated sequence of cost-
 > limited executions of a set of bouquet plans.
 
-- Firstly, this code above attempts to find the ESS dimension which on reduction would result in least performance reduction
-- Secondly, it identifies the "best" bouquet of plans along with the budgets to be executed
+- Firstly, the above code attempts to find the ESS dimension, which on elimination would result in least performance impact on query execution by bouquet approach
+- Secondly, it identifies the "best" bouquet of plans along with the budgets to be executed in the reduced ESS space
 - Further Details of this project are here in my blog: http://adarshpatil.in/timewarp/projects/error-prone-predicates.html
 
 [Plan Bouquet]:http://dsl.serc.iisc.ernet.in/projects/QUEST/index.html#pub

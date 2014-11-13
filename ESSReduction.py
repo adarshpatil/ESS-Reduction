@@ -6,13 +6,13 @@ import copy
 
 logFile = "run.log"
 
-location = "/home/adarsh/Courses/db/project/2D_Q5_ESS_REDUCTION_LS/"
+location = "/home/mas/13/eleprdee/Documents/DBProject/input/EAIQ8_4D_20/"
 
 # We assume uniform resolution n-dimensional plan matrix
-resolution = 300
+resolution = 20
 
-numPlans = 18
-dimension = 2
+numPlans = 324
+dimension = 4
 
 
 ###### DONOT CHANGE ANYTHING AFTER THIS POINT
@@ -26,7 +26,7 @@ def loadData():
 		f = open(file,'r')
 		
 		for j in range( pow(resolution,dimension) ):
-			cost[k][j] = int(f.readline())
+			cost[k][j] = float(f.readline())
 				
 		f.close()
 	
@@ -64,7 +64,7 @@ def dimReduceUsingRow( d ):
 	# Check row-wise on the selected reduction dimension
 	for row in range(resolution):     #fix a row
 		fixRowBestPlans = []        #stores the best plan num for all the points corresponding to fixed row
-		budgetForBestPlans = {}     #stores the max cost budget needed to be given to each fixRowBestPlans
+		budgetForBestPlans = {}     #stores the "max cost budget" needed to be given and "num of points where this plan will be execute" for each fixRowBestPlans
 		mso = 0.0
 		
 		for i in range( pow(resolution,dimension) ):
@@ -72,7 +72,7 @@ def dimReduceUsingRow( d ):
 			if loc[d] == row:
 				(p,c) = getOptimal( loc )
 				fixRowBestPlans.append(p)
-				budgetForBestPlans[p] = 0
+				budgetForBestPlans[p] = [0,0]
 		
 		# size of fixRowBestPlans is pow( resolution, dimension-1 )
 		
@@ -96,14 +96,18 @@ def dimReduceUsingRow( d ):
 			
 			bestPlanInFixedRow = fixRowBestPlans[index]
 			
+			# increment "num of points where plan 'bestPlanInFixedRow' executes"
+			budgetForBestPlans[bestPlanInFixedRow][1] += 1
+
+
 			if bestPlanInFixedRow == OptPlan:  #OPTIMIZATION: if OptPlan = fixRowBestPlans[index] subopt, is 0 so skip iteration
 				continue
 			
 			bestPlanInFixedRowCost = cost[bestPlanInFixedRow][i]
 			subOptCost = float( bestPlanInFixedRowCost / OptCost)
 			
-			if bestPlanInFixedRowCost > budgetForBestPlans[bestPlanInFixedRow]:      #find highest cost budget
-				budgetForBestPlans[bestPlanInFixedRow] = bestPlanInFixedRowCost
+			if bestPlanInFixedRowCost > budgetForBestPlans[bestPlanInFixedRow][0]:      #find highest cost budget
+				budgetForBestPlans[bestPlanInFixedRow][0] = bestPlanInFixedRowCost
 				
 			if subOptCost > mso:        #find highest mso value per row
 				mso = subOptCost
@@ -120,7 +124,19 @@ def dimReduceUsingRow( d ):
 			bestRowMSO = mso
 			bestRow = row
 			bouquet = copy.deepcopy(budgetForBestPlans)
-			
+		
+	
+	# find overlap factor for all boquet plans
+	# num points plan p covers due to increased budget / num points plan p is supposed to execute
+
+	for plan,planDetails in bouquet.items():
+		pointsCovered = 0
+		for i in range( pow(resolution,dimension) ):
+			if cost[plan][i] <= planDetails[0]:     # if budget for plan is less than cost of execution of plan at that point
+				pointsCovered += 1
+
+		planDetails[1] = float( pointsCovered / planDetails[1] )  # overlap factor!
+
 	return (bestRowMSO,bestRow,bouquet)
 	
 
