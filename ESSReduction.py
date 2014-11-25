@@ -1,12 +1,12 @@
 from __future__ import division
 import logging
 import copy
-
+import sys
 #Setting Global Constants
 
 logFile = "run.log"
 
-location = "/home/mas/13/eleprdee/Documents/DBProject/input/EAIQ8_4D_20/"
+location = "/home/adarsh/Courses/db/project/EAIQ8_4D_20/"
 
 # We assume uniform resolution n-dimensional plan matrix
 resolution = 20
@@ -14,10 +14,15 @@ resolution = 20
 numPlans = 324
 dimension = 4
 
+rhoMax = 0  #densest contour in Original ESS
+c_max = 0   #c_max in original ESS
+c_min = 0       #c_min in original ESS
 
 ###### DONOT CHANGE ANYTHING AFTER THIS POINT
 
 def loadData():
+	global cost
+
 	logging.info( " Loading data from files")
 	for k in range(numPlans):
 		file = location + str(k) + ".txt"
@@ -54,76 +59,122 @@ def getIndexForLocation( loc ):
 	return index
 
 	
+def getOptimalForAllPoints():
+	global rhoMax
+	global c_max
+	global c_min
+
+	for point in range( pow(resolution,dimension) ):
+		optimalCost[point] = getOptimal( getCoordinatesFromIndex( point ) )
 	
+	#min and max cost for all POSP plans
+	budgetForPOSP = [ [sys.maxint,0] for x in range( numPlans ) ] 
+	for i in range ( pow(resolution,dimension) ):
+		(optPlan,optCost) = optimalCost[i]
+		if 	optCost < budgetForPOSP[optPlan][0]:
+			budgetForPOSP[optPlan][0] = optCost
+		if optCost > budgetForPOSP[optPlan][1]:
+			budgetForPOSP[optPlan][1] = optCost
+	
+	c_max = max( [budgetForPOSP[i][1] for i in range( numPlans )] )
+	c_min = min( [budgetForPOSP[i][0] for i in range( numPlans )] )
+	
+	#find rhoMax - densest contour in ESS
+	costi = c_min
+	while costi <= c_max:
+		rho = 0
+		for plan in range( numPlans ):
+			if ( budgetForPOSP[plan][0] > costi ) and ( budgetForPOSP[plan][1] < costi ):
+				rho += 1
+				
+		rhoMax = rho if rho > rhoMax else rhoMax
+		costi *= 2
+	
+	print "Original ESS, rho: " + str(rho) + " c_max: " +  str(c_max) + " c_min " + str(c_min)
+	logging.debug(" Calculating rho in Original ESS" )
 	
 def dimReduceUsingRow( d ):
 	bestRowMSO = 0.0
 	bestRow = 0
 	bouquet = {}
-	
-	# Check row-wise on the selected reduction dimension
+
+
+	# Check row-wise on the reduction dimension d
 	for row in range(resolution):     #fix a row
-		fixRowBestPlans = []        #stores the best plan num for all the points corresponding to fixed row
-		budgetForBestPlans = {}     #stores the "max cost budget" needed to be given and "num of points where this plan will be execute" for each fixRowBestPlans
+		fixRowPlans = {}  #key=reduced POSP;  value=["min cost budget", "max cost budget", "num of points where plan will execute"]
 		mso = 0.0
 		
+		rhoMaxReduced = 0
+
+		#find reduced POSP - reduced POSP are all plans in the fixed row
 		for i in range( pow(resolution,dimension) ):
 			loc = getCoordinatesFromIndex( i )
 			if loc[d] == row:
-				(p,c) = getOptimal( loc )
-				fixRowBestPlans.append(p)
-				budgetForBestPlans[p] = [0,0]
-		
-		# size of fixRowBestPlans is pow( resolution, dimension-1 )
-		
-		
-		for i in range( pow(resolution,dimension) ):   #finds MSO using plans in Fixed Row by exploring complete space
+				(p,c) = optimalCost[i]
+				if p in fixRowPlans.keys():
+					fixRowPlans[p][2] += 1
+				else:
+					fixRowPlans[p] = [sys.maxint,0,1]    #min cost, max cost, num-of-points
+				
+		#Does FPC at all points in space and finds min and max budget for reduced POSP plans
+		for i in range( pow(resolution,dimension) ):   
 			loc = getCoordinatesFromIndex( i )
+
 			if loc[d] == row:   # OPTIMIZATION donot explore for fixedRow
 				continue
-			(OptPlan,OptCost) = getOptimal( loc )
 				
+			#find (bestPlan,bestCost) for this point among the reduced POSP
+			bestCost = sys.maxint
+			bestPlan = 0
+			for plan in fixRowPlans.keys():
+				if cost[plan][i] < bestCost:
+					bestCost = cost[plan][i]
+					bestPlan = plan
+			
 				
-			#compute index to lookup into fixRowBestPlans with n-1 dimension
-			index = 0
-			p = 0
-			for x in range(dimension):
-				if x == d:
-					continue
-				else:
-					index += pow(resolution, (dimension-p-2) ) * loc[x]
-					p += 1	
+			# check if this point cost is greater than min budget assigned to bestPlan
+			fixRowPlans[bestPlan][0] = bestCost if bestCost < fixRowPlans[bestPlan][0] else fixRowPlans[bestPlan][0]
 			
-			bestPlanInFixedRow = fixRowBestPlans[index]
+			# check if this point cost is lesser than max budget assigned to bestPlan
+			fixRowPlans[bestPlan][1] = bestCost if bestCost > fixRowPlans[bestPlan][1] else fixRowPlans[bestPlan][1]
+				
+			#increment number of points at which plan will execute
+			fixRowPlans[bestPlan][2] += 1		
 			
-			# increment "num of points where plan 'bestPlanInFixedRow' executes"
-			budgetForBestPlans[bestPlanInFixedRow][1] += 1
+		
+		#find rhoMax in reduced ESS
+		c_max_reduced = max( [ fixRowPlans[i][1] for i in fixRowPlans.keys() ] )
+		c_min_reduced = min( [ fixRowPlans[i][0] for i in fixRowPlans.keys() ] ) 
+		rhoMaxReduced = 0
 
+		if dimension == 2:
+			rhoMaxReduced = 1
+		else:	
+			costi = c_min_reduced
+			while costi <= c_max_reduced:
+				rho = 0
+				for plan in fixRowPlans.keys():
+					if ( fixRowPlans[plan][0] < costi ) and ( fixRowPlans[plan][1] > costi ):
+						rho += 1
+				
+				rhoMaxReduced = rho if rho > rhoMaxReduced else rhoMaxReduced
+				costi *= 2		
+		
 
-			if bestPlanInFixedRow == OptPlan:  #OPTIMIZATION: if OptPlan = fixRowBestPlans[index] subopt, is 0 so skip iteration
-				continue
-			
-			bestPlanInFixedRowCost = cost[bestPlanInFixedRow][i]
-			subOptCost = float( bestPlanInFixedRowCost / OptCost)
-			
-			if bestPlanInFixedRowCost > budgetForBestPlans[bestPlanInFixedRow][0]:      #find highest cost budget
-				budgetForBestPlans[bestPlanInFixedRow][0] = bestPlanInFixedRowCost
-				
-			if subOptCost > mso:        #find highest mso value per row
-				mso = subOptCost
-				
-		logging.debug(" MSO for reducing dimension " + str(d) + " using row " + str(row) + " is " + str(mso) )
+		mso = float(  ( 2*rhoMaxReduced*(c_max_reduced - c_min_reduced) )  /  ( rhoMax*(c_max-c_min) )   )
+		
+		logging.debug(" Reduced ESS, for dimension " + str(d) + " for row: " + str(row) + " rho: " + str(rhoMaxReduced) + " c_max: " +  str(c_max_reduced) + " c_min: " + str(c_min_reduced) + " mso: " + str(mso) )
 		
 		#find and return lowest MSO row
 		if row == 0:
 			bestRowMSO = mso
 			bestRow = 0
-			bouquet = copy.deepcopy(budgetForBestPlans)
+			bouquet = copy.deepcopy(fixRowPlans)
 			
 		elif mso < bestRowMSO:
 			bestRowMSO = mso
 			bestRow = row
-			bouquet = copy.deepcopy(budgetForBestPlans)
+			bouquet = copy.deepcopy(fixRowPlans)
 		
 	
 	# find overlap factor for all boquet plans
@@ -132,10 +183,10 @@ def dimReduceUsingRow( d ):
 	for plan,planDetails in bouquet.items():
 		pointsCovered = 0
 		for i in range( pow(resolution,dimension) ):
-			if cost[plan][i] <= planDetails[0]:     # if budget for plan is less than cost of execution of plan at that point
+			if cost[plan][i] <= planDetails[1]:     # if budget for plan is less than cost of execution of plan at that point
 				pointsCovered += 1
 
-		planDetails[1] = float( pointsCovered / planDetails[1] )  # overlap factor!
+		planDetails[2] = float( pointsCovered / planDetails[2] )  # overlap factor!
 
 	return (bestRowMSO,bestRow,bouquet)
 	
@@ -162,8 +213,12 @@ def getCoordinatesFromIndex( index ):
 logging.basicConfig(filename=logFile,format='%(levelname)s:%(message)s',level=logging.DEBUG)
 
 cost = [ [0 for x in xrange( pow(resolution,dimension) )] for x in xrange( numPlans )]
+optimalCost = [[0,0] for x in xrange( pow(resolution,dimension) )]
+budgetForPOSP = [ [sys.maxint,0] for x in range( numPlans ) ] 
+rhoOriginal = 0
 
 loadData()
+getOptimalForAllPoints()
 for i in range(dimension):
 	print "Reducing dimension " + str(i)
 	(msoCost, row, bouquet) = dimReduceUsingRow(i)

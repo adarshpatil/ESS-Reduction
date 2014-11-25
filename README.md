@@ -4,7 +4,7 @@ ESS-Reduction
 Aim
 ----
 
-Database Systems - IISc Course Project
+Database Systems - IISc Course Project - IKEBANA
 - We aim to enhance the performance of the [Plan Bouquet] algorithm for query processing,  proposed in the paper presented at VLDB 2014. The paper defines plan bouquet approach as:
 
 > In this paper, we investigate a conceptually new approach, wherein

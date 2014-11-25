@@ -2,12 +2,13 @@ import threading
 import ESSReduction as ESSR
 import logging
 import Queue
+import sys
 
 #Setting Global Constants
 
 logFile = "parallel_run.log"
 
-location = "/home/mas/13/eleprdee/Documents/DBProject/input/EAIQ8_4D_20/"
+location = "/home/adarsh/Courses/db/project/EAIQ8_4D_20/"
 
 # We assume uniform resolution n-dimensional plan matrix
 resolution = 20
@@ -58,13 +59,22 @@ class parallelESSReduction(threading.Thread):
 #
 
 cost = [ [0 for x in xrange( pow(resolution,dimension) )] for x in xrange( numPlans )]
+optimalCost = [[0,0] for x in xrange( pow(resolution,dimension) )]  #[p,c] for all points
+budgetForPOSP = [ [sys.maxint,0] for x in range( numPlans ) ] #[min,max] for all plans
 
 ESSR.cost = cost
+ESSR.optimalCost = optimalCost
+ESSR.budgetForPOSP = budgetForPOSP
 ESSR.location = location
 ESSR.resolution = resolution
 
+ESSR.rhoMax = 0  #densest contour in Original ESS
+ESSR.c_max = 0   #c_max in original ESS
+ESSR.c_min = 0       #c_min in original ESS
+
 ESSR.numPlans = numPlans
 ESSR.dimension = dimension
+
 
 
 # Setting logging configs
@@ -79,6 +89,7 @@ for x in range(dimension):
 	
 print "Loading data"
 ESSR.loadData()
+ESSR.getOptimalForAllPoints()
 
 print "Processing started.. (Refer run logs)"
 print "Forking " + str(dimension) + " threads"

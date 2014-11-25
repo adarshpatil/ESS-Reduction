@@ -1,0 +1,419 @@
+
+INFO: Loading data from files
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/0.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/1.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/2.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/3.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/4.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/5.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/6.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/7.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/8.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/9.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/10.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/11.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/12.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/13.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/14.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/15.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/16.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/17.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/18.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/19.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/20.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/21.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/22.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/23.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/24.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/25.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/26.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/27.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/28.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/29.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/30.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/31.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/32.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/33.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/34.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/35.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/36.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/37.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/38.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/39.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/40.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/41.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/42.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/43.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/44.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/45.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/46.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/47.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/48.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/49.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/50.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/51.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/52.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/53.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/54.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/55.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/56.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/57.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/58.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/59.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/60.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/61.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/62.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/63.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/64.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/65.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/66.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/67.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/68.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/69.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/70.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/71.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/72.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/73.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/74.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/75.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/76.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/77.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/78.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/79.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/80.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/81.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/82.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/83.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/84.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/85.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/86.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/87.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/88.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/89.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/90.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/91.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/92.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/93.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/94.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/95.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/96.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/97.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/98.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/99.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/100.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/101.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/102.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/103.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/104.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/105.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/106.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/107.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/108.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/109.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/110.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/111.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/112.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/113.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/114.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/115.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/116.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/117.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/118.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/119.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/120.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/121.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/122.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/123.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/124.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/125.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/126.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/127.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/128.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/129.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/130.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/131.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/132.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/133.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/134.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/135.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/136.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/137.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/138.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/139.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/140.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/141.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/142.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/143.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/144.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/145.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/146.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/147.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/148.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/149.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/150.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/151.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/152.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/153.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/154.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/155.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/156.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/157.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/158.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/159.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/160.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/161.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/162.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/163.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/164.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/165.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/166.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/167.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/168.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/169.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/170.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/171.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/172.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/173.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/174.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/175.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/176.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/177.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/178.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/179.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/180.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/181.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/182.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/183.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/184.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/185.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/186.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/187.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/188.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/189.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/190.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/191.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/192.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/193.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/194.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/195.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/196.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/197.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/198.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/199.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/200.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/201.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/202.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/203.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/204.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/205.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/206.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/207.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/208.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/209.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/210.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/211.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/212.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/213.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/214.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/215.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/216.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/217.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/218.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/219.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/220.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/221.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/222.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/223.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/224.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/225.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/226.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/227.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/228.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/229.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/230.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/231.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/232.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/233.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/234.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/235.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/236.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/237.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/238.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/239.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/240.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/241.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/242.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/243.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/244.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/245.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/246.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/247.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/248.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/249.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/250.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/251.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/252.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/253.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/254.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/255.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/256.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/257.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/258.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/259.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/260.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/261.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/262.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/263.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/264.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/265.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/266.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/267.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/268.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/269.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/270.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/271.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/272.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/273.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/274.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/275.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/276.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/277.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/278.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/279.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/280.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/281.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/282.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/283.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/284.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/285.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/286.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/287.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/288.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/289.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/290.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/291.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/292.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/293.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/294.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/295.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/296.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/297.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/298.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/299.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/300.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/301.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/302.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/303.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/304.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/305.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/306.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/307.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/308.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/309.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/310.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/311.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/312.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/313.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/314.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/315.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/316.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/317.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/318.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/319.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/320.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/321.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/322.txt
+INFO: Reading file /storage/hpc/homes/adarsh/EAIQ8_4D_20/323.txt
+DEBUG: Calculating rho in Original ESS
+DEBUG: Thread 0 STARTING dimension reduction 0
+DEBUG: Thread 1 STARTING dimension reduction 1
+DEBUG: Thread 2 STARTING dimension reduction 2
+DEBUG: Thread 3 STARTING dimension reduction 3
+DEBUG: Reduced ESS, for dimension 3 for row: 0 rho: 16 c_max: 6566362.41853 c_min: 4138.634518 mso: 5.18841750594
+DEBUG: Reduced ESS, for dimension 2 for row: 0 rho: 12 c_max: 5050391.94098 c_min: 3943.449718 mso: 2.99247814727
+DEBUG: Reduced ESS, for dimension 1 for row: 0 rho: 19 c_max: 3689646.79655 c_min: 3943.449718 mso: 3.46049220051
+DEBUG: Reduced ESS, for dimension 0 for row: 0 rho: 19 c_max: 3071929.53719 c_min: 3943.449718 mso: 2.88051992468
+DEBUG: Reduced ESS, for dimension 2 for row: 1 rho: 12 c_max: 5050391.94098 c_min: 3943.449718 mso: 2.99247814727
+DEBUG: Reduced ESS, for dimension 3 for row: 1 rho: 12 c_max: 5087462.34813 c_min: 4066.818718 mso: 3.01438725909
+DEBUG: Reduced ESS, for dimension 1 for row: 1 rho: 23 c_max: 2090022.55075 c_min: 3943.449718 mso: 2.37095059831
+DEBUG: Reduced ESS, for dimension 0 for row: 1 rho: 22 c_max: 3071929.53719 c_min: 3943.449718 mso: 3.33533886015
+DEBUG: Reduced ESS, for dimension 3 for row: 2 rho: 10 c_max: 5002432.85598 c_min: 4066.893218 mso: 2.46997152908
+DEBUG: Reduced ESS, for dimension 2 for row: 2 rho: 12 c_max: 5050391.94098 c_min: 3943.449718 mso: 2.99247814727
+DEBUG: Reduced ESS, for dimension 3 for row: 3 rho: 10 c_max: 5002432.85598 c_min: 4066.893218 mso: 2.46997152908
+DEBUG: Reduced ESS, for dimension 0 for row: 2 rho: 25 c_max: 1345834.71621 c_min: 3943.449718 mso: 1.65775837946
+DEBUG: Reduced ESS, for dimension 2 for row: 3 rho: 14 c_max: 5050391.94098 c_min: 3943.449718 mso: 3.49122450515
+DEBUG: Reduced ESS, for dimension 1 for row: 2 rho: 28 c_max: 2090022.55075 c_min: 3943.449718 mso: 2.88637464142
+DEBUG: Reduced ESS, for dimension 3 for row: 4 rho: 24 c_max: 1429728.92585 c_min: 4066.818718 mso: 1.69079807646
+DEBUG: Reduced ESS, for dimension 0 for row: 3 rho: 27 c_max: 477265.659729 c_min: 3943.449718 mso: 0.631516270936
+DEBUG: Reduced ESS, for dimension 2 for row: 4 rho: 19 c_max: 5002432.85598 c_min: 3943.449718 mso: 4.69306180586
+DEBUG: Reduced ESS, for dimension 3 for row: 5 rho: 37 c_max: 1414974.48835 c_min: 4066.818718 mso: 2.57967036836
+DEBUG: Reduced ESS, for dimension 1 for row: 3 rho: 30 c_max: 362404.112252 c_min: 3943.449718 mso: 0.531406245971
+DEBUG: Reduced ESS, for dimension 0 for row: 4 rho: 31 c_max: 382091.108239 c_min: 3943.449718 mso: 0.579277961559
+DEBUG: Reduced ESS, for dimension 3 for row: 6 rho: 40 c_max: 1329944.99621 c_min: 4066.893218 mso: 2.62076141668
+DEBUG: Reduced ESS, for dimension 2 for row: 5 rho: 21 c_max: 362404.112252 c_min: 3943.449718 mso: 0.37198437218
+DEBUG: Reduced ESS, for dimension 1 for row: 4 rho: 32 c_max: 362404.112252 c_min: 3943.449718 mso: 0.566833329035
+DEBUG: Reduced ESS, for dimension 2 for row: 6 rho: 22 c_max: 362404.112252 c_min: 3943.449718 mso: 0.389697913712
+DEBUG: Reduced ESS, for dimension 3 for row: 7 rho: 48 c_max: 1329944.99621 c_min: 4066.893218 mso: 3.14491370001
+DEBUG: Reduced ESS, for dimension 0 for row: 5 rho: 34 c_max: 348607.032252 c_min: 3943.449718 mso: 0.579079527961
+DEBUG: Reduced ESS, for dimension 1 for row: 5 rho: 32 c_max: 362404.112252 c_min: 3943.449718 mso: 0.566833329035
+DEBUG: Reduced ESS, for dimension 2 for row: 7 rho: 23 c_max: 362404.112252 c_min: 3943.449718 mso: 0.407411455244
+DEBUG: Reduced ESS, for dimension 3 for row: 8 rho: 47 c_max: 1326147.72022 c_min: 4066.893218 mso: 3.07057536862
+DEBUG: Reduced ESS, for dimension 0 for row: 6 rho: 32 c_max: 332717.312252 c_min: 3943.449718 mso: 0.519889634981
+DEBUG: Reduced ESS, for dimension 1 for row: 6 rho: 31 c_max: 346514.392252 c_min: 3943.449718 mso: 0.524778595897
+DEBUG: Reduced ESS, for dimension 2 for row: 8 rho: 19 c_max: 346514.392252 c_min: 3943.449718 mso: 0.32163849426
+DEBUG: Reduced ESS, for dimension 3 for row: 9 rho: 14 c_max: 362404.112252 c_min: 41988.80235 mso: 0.221669117141
+DEBUG: Reduced ESS, for dimension 2 for row: 9 rho: 26 c_max: 346514.392252 c_min: 3943.449718 mso: 0.440136886882
+DEBUG: Reduced ESS, for dimension 3 for row: 10 rho: 17 c_max: 346514.392252 c_min: 41988.80235 mso: 0.255821246846
+DEBUG: Reduced ESS, for dimension 1 for row: 7 rho: 36 c_max: 346514.392252 c_min: 3943.449718 mso: 0.609420304913
+DEBUG: Reduced ESS, for dimension 0 for row: 7 rho: 40 c_max: 332717.312252 c_min: 3943.449718 mso: 0.649862043727
+DEBUG: Reduced ESS, for dimension 3 for row: 11 rho: 17 c_max: 346514.392252 c_min: 41988.80235 mso: 0.255821246846
+DEBUG: Reduced ESS, for dimension 2 for row: 10 rho: 28 c_max: 344303.817252 c_min: 3943.449718 mso: 0.470934938809
+DEBUG: Reduced ESS, for dimension 1 for row: 8 rho: 35 c_max: 346514.392252 c_min: 3943.449718 mso: 0.59249196311
+DEBUG: Reduced ESS, for dimension 0 for row: 8 rho: 41 c_max: 332717.312252 c_min: 3943.449718 mso: 0.66610859482
+DEBUG: Reduced ESS, for dimension 3 for row: 12 rho: 18 c_max: 332717.312252 c_min: 41988.80235 mso: 0.258597322705
+DEBUG: Reduced ESS, for dimension 2 for row: 11 rho: 29 c_max: 344303.817252 c_min: 3943.449718 mso: 0.487754043767
+DEBUG: Reduced ESS, for dimension 1 for row: 9 rho: 34 c_max: 346514.392252 c_min: 3943.449718 mso: 0.575563621307
+DEBUG: Reduced ESS, for dimension 0 for row: 9 rho: 38 c_max: 332717.312252 c_min: 3943.449718 mso: 0.61736894154
+DEBUG: Reduced ESS, for dimension 3 for row: 13 rho: 19 c_max: 332717.312252 c_min: 41988.80235 mso: 0.272963840633
+DEBUG: Reduced ESS, for dimension 2 for row: 12 rho: 32 c_max: 330506.737252 c_min: 3943.449718 mso: 0.51639405592
+DEBUG: Reduced ESS, for dimension 1 for row: 10 rho: 33 c_max: 346514.392252 c_min: 3943.449718 mso: 0.558635279504
+DEBUG: Reduced ESS, for dimension 3 for row: 14 rho: 23 c_max: 330339.138502 c_min: 41988.80235 mso: 0.327726979137
+DEBUG: Reduced ESS, for dimension 0 for row: 10 rho: 40 c_max: 332717.312252 c_min: 3943.449718 mso: 0.649862043727
+DEBUG: Reduced ESS, for dimension 2 for row: 13 rho: 35 c_max: 330506.737252 c_min: 3943.449718 mso: 0.564805998662
+DEBUG: Reduced ESS, for dimension 1 for row: 11 rho: 33 c_max: 346514.392252 c_min: 3943.449718 mso: 0.558635279504
+DEBUG: Reduced ESS, for dimension 3 for row: 15 rho: 23 c_max: 330339.138502 c_min: 41988.80235 mso: 0.327726979137
+DEBUG: Reduced ESS, for dimension 2 for row: 14 rho: 35 c_max: 330339.138502 c_min: 3943.449718 mso: 0.564516129032
+DEBUG: Reduced ESS, for dimension 0 for row: 11 rho: 39 c_max: 332717.312252 c_min: 3943.449718 mso: 0.633615492634
+DEBUG: Reduced ESS, for dimension 3 for row: 16 rho: 22 c_max: 330339.138502 c_min: 41988.80235 mso: 0.313477980044
+DEBUG: Reduced ESS, for dimension 1 for row: 12 rho: 32 c_max: 332717.312252 c_min: 3943.449718 mso: 0.519889634981
+DEBUG: Reduced ESS, for dimension 2 for row: 15 rho: 35 c_max: 330339.138502 c_min: 3943.449718 mso: 0.564516129032
+DEBUG: Reduced ESS, for dimension 3 for row: 17 rho: 24 c_max: 330339.138502 c_min: 41988.80235 mso: 0.34197597823
+DEBUG: Reduced ESS, for dimension 1 for row: 13 rho: 32 c_max: 332717.312252 c_min: 3943.449718 mso: 0.519889634981
+DEBUG: Reduced ESS, for dimension 0 for row: 12 rho: 38 c_max: 332717.312252 c_min: 3943.449718 mso: 0.61736894154
+DEBUG: Reduced ESS, for dimension 2 for row: 16 rho: 36 c_max: 330339.138502 c_min: 3943.449718 mso: 0.58064516129
+DEBUG: Reduced ESS, for dimension 3 for row: 18 rho: 25 c_max: 330339.138502 c_min: 41988.80235 mso: 0.356224977323
+DEBUG: Reduced ESS, for dimension 1 for row: 14 rho: 26 c_max: 332549.713502 c_min: 3943.449718 mso: 0.422194996697
+DEBUG: Reduced ESS, for dimension 0 for row: 13 rho: 37 c_max: 332717.312252 c_min: 3943.449718 mso: 0.601122390447
+DEBUG: Reduced ESS, for dimension 3 for row: 19 rho: 21 c_max: 317415.318502 c_min: 41988.80235 mso: 0.285817581679
+DEBUG: Reduced ESS, for dimension 2 for row: 17 rho: 39 c_max: 330339.138502 c_min: 3943.449718 mso: 0.629032258065
+DEBUG: Reduced ESS, for dimension 1 for row: 15 rho: 31 c_max: 332549.713502 c_min: 3943.449718 mso: 0.503386342216
+DEBUG: Reduced ESS, for dimension 0 for row: 14 rho: 27 c_max: 330506.737252 c_min: 3943.449718 mso: 0.435707484682
+DEBUG: Reduced ESS, for dimension 1 for row: 16 rho: 31 c_max: 332549.713502 c_min: 3943.449718 mso: 0.503386342216
+DEBUG: Reduced ESS, for dimension 2 for row: 18 rho: 37 c_max: 330339.138502 c_min: 3943.904718 mso: 0.596773361637
+DEBUG: Reduced ESS, for dimension 0 for row: 15 rho: 26 c_max: 330506.737252 c_min: 3943.449718 mso: 0.419570170435
+DEBUG: Reduced ESS, for dimension 2 for row: 19 rho: 20 c_max: 322748.368502 c_min: 3944.234718 mso: 0.315077823299
+DEBUG: Reduced ESS, for dimension 1 for row: 17 rho: 31 c_max: 330339.138502 c_min: 3943.449718 mso: 0.5
+DEBUG: Reduced ESS, for dimension 0 for row: 16 rho: 26 c_max: 330506.737252 c_min: 3943.449718 mso: 0.419570170435
+DEBUG: Reduced ESS, for dimension 0 for row: 17 rho: 26 c_max: 330506.737252 c_min: 3943.449718 mso: 0.419570170435
+DEBUG: Reduced ESS, for dimension 1 for row: 18 rho: 31 c_max: 330339.138502 c_min: 3943.449718 mso: 0.5
+DEBUG: Reduced ESS, for dimension 0 for row: 18 rho: 25 c_max: 330506.737252 c_min: 3943.449718 mso: 0.403432856187
+DEBUG: Reduced ESS, for dimension 1 for row: 19 rho: 30 c_max: 324693.317252 c_min: 3943.449718 mso: 0.475501221799
+DEBUG: Reduced ESS, for dimension 0 for row: 19 rho: 22 c_max: 321089.373502 c_min: 3943.449718 mso: 0.344782894634
+DEBUG: Thread 3 COMPLETED dimension reduction 3
+DEBUG: Thread 3 queue size remaining 0 GOOD BYE
+DEBUG: Thread 2 COMPLETED dimension reduction 2
+DEBUG: Thread 2 queue size remaining 0 GOOD BYE
+DEBUG: Thread 1 COMPLETED dimension reduction 1
+DEBUG: Thread 0 COMPLETED dimension reduction 0
+DEBUG: Thread 1 queue size remaining 0 GOOD BYE
+DEBUG: Thread 0 queue size remaining 0 GOOD BYE
