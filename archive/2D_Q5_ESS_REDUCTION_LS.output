@@ -1,0 +1,27 @@
+Loading data
+Original ESS, rho: 1 c_max: 299447.0 c_min 852.0
+Processing started.. (Refer run logs)
+Forking 2 threads
+Reducing dimension 0
+Use selectivity row 299 with MSO 1.79744469934
+
+Here's the Plan Bouquet
+Plan Number : Budget : Overlap Factor
+16 : 175988.0 : 7.0
+12 : 248291.0 : 2.0
+13 : 244868.0 : 15.0
+14 : 258246.0 : 1.0
+15 : 299334.0 : 1.0
+----------
+Reducing dimension 1
+Use selectivity row 299 with MSO 1.95619484586
+
+Here's the Plan Bouquet
+Plan Number : Budget : Overlap Factor
+1 : 237537.0 : 2.0
+4 : 238674.0 : 6.0
+5 : 136286.0 : 3.0
+7 : 260198.0 : 2.0
+11 : 270424.0 : 2.0
+15 : 299240.0 : 1.0
+----------

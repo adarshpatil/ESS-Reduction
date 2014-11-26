@@ -91,7 +91,10 @@ def getOptimalForAllPoints():
 	
 	print "Original ESS, rho: " + str(rho) + " c_max: " +  str(c_max) + " c_min " + str(c_min)
 	logging.debug(" Calculating rho in Original ESS" )
-	
+
+
+
+
 def dimReduceUsingRow( d ):
 	bestRowMSO = 0.0
 	bestRow = 0
@@ -111,9 +114,13 @@ def dimReduceUsingRow( d ):
 			if loc[d] == row:
 				(p,c) = optimalCost[i]
 				if p in fixRowPlans.keys():
+					if c < fixRowPlans[p][0]:
+						fixRowPlans[p][0] = c
+					elif c > fixRowPlans[p][1]:
+						fixRowPlans[p][1] = c
 					fixRowPlans[p][2] += 1
 				else:
-					fixRowPlans[p] = [sys.maxint,0,1]    #min cost, max cost, num-of-points
+					fixRowPlans[p] = [c,c,1]    #min cost, max cost, num-of-points
 				
 		#Does FPC at all points in space and finds min and max budget for reduced POSP plans
 		for i in range( pow(resolution,dimension) ):   
@@ -140,14 +147,14 @@ def dimReduceUsingRow( d ):
 			#increment number of points at which plan will execute
 			fixRowPlans[bestPlan][2] += 1		
 			
-		
+
 		#find rhoMax in reduced ESS
 		c_max_reduced = max( [ fixRowPlans[i][1] for i in fixRowPlans.keys() ] )
 		c_min_reduced = min( [ fixRowPlans[i][0] for i in fixRowPlans.keys() ] ) 
 		rhoMaxReduced = 0
 
 		if dimension == 2:
-			rhoMaxReduced = 1
+			rhoMaxReduced = len(fixRowPlans.keys())
 		else:	
 			costi = c_min_reduced
 			while costi <= c_max_reduced:
