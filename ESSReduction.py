@@ -1,4 +1,3 @@
-from __future__ import division
 import logging
 import copy
 import sys
@@ -185,8 +184,7 @@ def dimReduceUsingRow( d ):
 		for i in range( pow(resolution,dimension) ):
 			if cost[plan][i] <= planDetails[1]:     # if budget for plan is less than cost of execution of plan at that point
 				pointsCovered += 1
-
-		planDetails[2] = float( pointsCovered / planDetails[2] )  # overlap factor!
+		bouquet[plan][2] = float( pointsCovered / planDetails[2] )  # overlap factor!
 
 	return (bestRowMSO,bestRow,bouquet)
 	

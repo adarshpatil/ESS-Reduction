@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import threading
 import ESSReduction as ESSR
 import logging
@@ -40,13 +41,13 @@ class parallelESSReduction(threading.Thread):
 			
 			lock.acquire()  #Theards need to print our results sequentially 
 			
-			print "Reducing dimension " + str(i)
+			print "Reducing dimension " + str(item)
 			print "Use selectivity row " + str(row) + " with MSO " + str(msoCost)
 			print ""
 			print "Here's the Plan Bouquet"
 			print "Plan Number : Budget : Overlap Factor"
 			for plan,planDetails in bouquet.items():
-				print str(plan) + " : " + str(planDetails[0]) + " : " + str(planDetails[1])
+				print str(plan) + " : " + str(planDetails[1]) + " : " + str(planDetails[2])
 			print "----------"
 		
 			lock.release()
