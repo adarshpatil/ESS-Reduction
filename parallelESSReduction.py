@@ -4,20 +4,20 @@ import ESSReduction as ESSR
 import logging
 import Queue
 import sys
+import optparse
 
 #Setting Global Constants
 
 logFile = "parallel_run.log"
 
-location = "/home/adarsh/Courses/db/project/EAIQ8_4D_20/"
+# These are now passed as arguments
+#location = "/storage/hpc/homes/adarsh/dbproject/EAIQ5_3D_20/"
 
 # We assume uniform resolution n-dimensional plan matrix
-resolution = 20
+#resolution = 20
 
-numPlans = 324
-dimension = 4
-
-numThreads = dimension   #by default we inovoke as many threads as dimensions for max parallelism
+#numPlans = 50
+#dimension = 3
 
 ###### DONOT CHANGE ANYTHING AFTER THIS POINT
 
@@ -59,9 +59,29 @@ class parallelESSReduction(threading.Thread):
 ## MAIN
 #
 
+parser = optparse.OptionParser()
+parser.add_option("-l", "--location", dest="location", action="store",
+                  help="absolute path of directory containing cost of plans at all points")
+parser.add_option("-r", "--resolution", dest="resolution", action="store",
+                  help="resolution of space")
+parser.add_option("-n", "--numPlans", dest="numPlans", action="store",
+                  help="number of plans")
+parser.add_option("-d", "--dimension", dest="dimension", action="store",
+                  help="number of dimensions")
+
+options, args = parser.parse_args()
+
+numPlans = int(options.numPlans)
+location = options.location
+dimension = int(options.dimension)
+resolution = int(options.resolution)
+
+
 cost = [ [0 for x in xrange( pow(resolution,dimension) )] for x in xrange( numPlans )]
 optimalCost = [[0,0] for x in xrange( pow(resolution,dimension) )]  #[p,c] for all points
 budgetForPOSP = [ [sys.maxint,0] for x in range( numPlans ) ] #[min,max] for all plans
+
+
 
 ESSR.cost = cost
 ESSR.optimalCost = optimalCost
@@ -75,7 +95,7 @@ ESSR.c_min = 0       #c_min in original ESS
 
 ESSR.numPlans = numPlans
 ESSR.dimension = dimension
-
+numThreads = dimension   #by default we inovoke as many threads as dimensions for max parallelism
 
 
 # Setting logging configs
@@ -88,6 +108,7 @@ lock = threading.Lock()
 for x in range(dimension):
 	dimQ.put(x)
 	
+logging.info(" Running for INPUT: " + location)
 print "Loading data"
 ESSR.loadData()
 ESSR.getOptimalForAllPoints()
