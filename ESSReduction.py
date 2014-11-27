@@ -13,7 +13,6 @@ resolution = 20
 numPlans = 324
 dimension = 4
 
-rhoMax = 0  #densest contour in Original ESS
 c_max = 0   #c_max in original ESS
 c_min = 0       #c_min in original ESS
 
@@ -59,7 +58,6 @@ def getIndexForLocation( loc ):
 
 	
 def getOptimalForAllPoints():
-	global rhoMax
 	global c_max
 	global c_min
 
@@ -77,20 +75,6 @@ def getOptimalForAllPoints():
 	
 	c_max = max( [budgetForPOSP[i][1] for i in range( numPlans )] )
 	c_min = min( [budgetForPOSP[i][0] for i in range( numPlans )] )
-	
-	#find rhoMax - densest contour in ESS
-	costi = c_min
-	while costi <= c_max:
-		rho = 0
-		for plan in range( numPlans ):
-			if ( budgetForPOSP[plan][0] > costi ) and ( budgetForPOSP[plan][1] < costi ):
-				rho += 1
-				
-		rhoMax = rho if rho > rhoMax else rhoMax
-		costi *= 2
-	
-	print "Original ESS, rho: " + str(rho) + " c_max: " +  str(c_max) + " c_min " + str(c_min)
-	logging.debug(" Calculating rho in Original ESS" )
 
 
 
@@ -101,14 +85,17 @@ def dimReduceUsingRow( d ):
 	bouquet = {}
 
 
-	# Check row-wise on the reduction dimension d
-	for row in range(resolution):     #fix a row
+	# Check hyperplane-wise on the reduction dimension d
+	for row in range(resolution):     #fix a hyperplane
 		fixRowPlans = {}  #key=reduced POSP;  value=["min cost budget", "max cost budget", "num of points where plan will execute"]
-		mso = 0.0
+		msoMin = 0.0
+		msoMax = 0.0
+		minDiff = [sys.maxint,0] #[bestCost,optCost]
+		maxDiff = [0,0] #[bestCost,optCost]
 		
 		rhoMaxReduced = 0
 
-		#find reduced POSP - reduced POSP are all plans in the fixed row
+		#find reduced POSP - reduced POSP are all plans in the fixed hyperplane
 		for i in range( pow(resolution,dimension) ):
 			loc = getCoordinatesFromIndex( i )
 			if loc[d] == row:
@@ -123,12 +110,15 @@ def dimReduceUsingRow( d ):
 					fixRowPlans[p] = [c,c,1]    #min cost, max cost, num-of-points
 				
 		#Does FPC at all points in space and finds min and max budget for reduced POSP plans
-		for i in range( pow(resolution,dimension) ):   
+		for i in range( pow(resolution,dimension) ):  
 			loc = getCoordinatesFromIndex( i )
 
-			if loc[d] == row:   # OPTIMIZATION donot explore for fixedRow
+			if loc[d] == row:   # OPTIMIZATION donot explore for fixed hyperplane
 				continue
 				
+			
+			(optPlan,optCost) = optimalCost[i]
+			
 			#find (bestPlan,bestCost) for this point among the reduced POSP
 			bestCost = sys.maxint
 			bestPlan = 0
@@ -138,47 +128,81 @@ def dimReduceUsingRow( d ):
 					bestPlan = plan
 			
 				
-			# check if this point cost is greater than min budget assigned to bestPlan
+			# check if this point cost is lesser than min budget assigned to bestPlan
 			fixRowPlans[bestPlan][0] = bestCost if bestCost < fixRowPlans[bestPlan][0] else fixRowPlans[bestPlan][0]
 			
-			# check if this point cost is lesser than max budget assigned to bestPlan
+			# check if this point cost is greater than max budget assigned to bestPlan
 			fixRowPlans[bestPlan][1] = bestCost if bestCost > fixRowPlans[bestPlan][1] else fixRowPlans[bestPlan][1]
 				
 			#increment number of points at which plan will execute
 			fixRowPlans[bestPlan][2] += 1		
-			
 
-		#find rhoMax in reduced ESS
+			#find minDiff and maxDiff Cost			
+			if (bestCost - optCost) < (minDiff[0] - minDiff[1]):
+				minDiff = [bestCost, optCost] 
+			if (bestCost - optCost) > (maxDiff[0] - minDiff[1]):
+				maxDiff = [bestCost, optCost]
+	
+				
+		#find rhoMaxReduced in reduced ESS
 		c_max_reduced = max( [ fixRowPlans[i][1] for i in fixRowPlans.keys() ] )
-		c_min_reduced = min( [ fixRowPlans[i][0] for i in fixRowPlans.keys() ] ) 
+		c_min_reduced = c_min 
 		rhoMaxReduced = 0
 
+
+		costi = c_min
+		contour = 1
+		kdashmax = -1
+		kmax = -1
+		kdashmin = -1
+		kmin = -1
+		
+		while costi <= c_max_reduced:
+			rho = 0
+			for plan in fixRowPlans.keys():
+				if ( fixRowPlans[plan][0] < costi ) and ( fixRowPlans[plan][1] > costi ):
+					rho += 1
+				
+			rhoMaxReduced = rho if rho > rhoMaxReduced else rhoMaxReduced
+
+			if maxDiff[0] < costi and kdashmax == -1:
+				kdashmax = contour
+			if maxDiff[1] < costi and kmax == -1:
+				kmax = contour
+			if minDiff[0] < costi and kdashmin == -1:
+				kdashmin = contour
+			if maxDiff[1] < costi and kmin == -1:
+				kmin = contour
+				
+			costi *= 2					
+			contour += 1
+
+
+		if maxDiff[0] < costi and kdashmax == -1:
+			kdashmax = contour
+		if maxDiff[1] < costi and kmax == -1:
+			kmax = contour
+		if minDiff[0] < costi and kdashmin == -1:
+			kdashmin = contour
+		if maxDiff[1] < costi and kmin == -1:
+			kmin = contour
+			
 		if dimension == 2:
 			rhoMaxReduced = len(fixRowPlans.keys())
-		else:	
-			costi = c_min_reduced
-			while costi <= c_max_reduced:
-				rho = 0
-				for plan in fixRowPlans.keys():
-					if ( fixRowPlans[plan][0] < costi ) and ( fixRowPlans[plan][1] > costi ):
-						rho += 1
-				
-				rhoMaxReduced = rho if rho > rhoMaxReduced else rhoMaxReduced
-				costi *= 2		
+			
+		msoMax = float(  4 * rhoMaxReduced * pow(2,(kdashmax - kmax)) )
+		msoMin = float(  4 * rhoMaxReduced * pow(2,(kdashmin - kmin)) )
 		
-
-		mso = float(  ( 2*rhoMaxReduced*(c_max_reduced - c_min_reduced) )  /  ( rhoMax*(c_max-c_min) )   )
-		
-		logging.debug(" Reduced ESS, for dimension " + str(d) + " for row: " + str(row) + " rho: " + str(rhoMaxReduced) + " c_max: " +  str(c_max_reduced) + " c_min: " + str(c_min_reduced) + " mso: " + str(mso) )
+		logging.debug(" Reduced ESS, for dimension " + str(d) + " for row: " + str(row) + " maxMSO: " +  str(msoMax) + " minMSO: " + str(msoMin) )
 		
 		#find and return lowest MSO row
 		if row == 0:
-			bestRowMSO = mso
+			bestRowMSO = msoMax
 			bestRow = 0
 			bouquet = copy.deepcopy(fixRowPlans)
 			
-		elif mso < bestRowMSO:
-			bestRowMSO = mso
+		elif msoMax < bestRowMSO:
+			bestRowMSO = msoMax
 			bestRow = row
 			bouquet = copy.deepcopy(fixRowPlans)
 		
@@ -195,7 +219,6 @@ def dimReduceUsingRow( d ):
 
 	return (bestRowMSO,bestRow,bouquet)
 	
-
 
 	
 	

@@ -89,7 +89,6 @@ ESSR.budgetForPOSP = budgetForPOSP
 ESSR.location = location
 ESSR.resolution = resolution
 
-ESSR.rhoMax = 0  #densest contour in Original ESS
 ESSR.c_max = 0   #c_max in original ESS
 ESSR.c_min = 0       #c_min in original ESS
 
